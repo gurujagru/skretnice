@@ -1,5 +1,6 @@
 <h1>Crossover</h1>
-Web app for calculation the values for building speaker crossover </br> 
+Web app for calculating some physical values that </br>
+are needed for building the speaker crossover </br> 
 Tehnique used: <br/>
   -Responsive Grid View <br/>
   -Ajax(jQuery and raw Java Script) <br/>
