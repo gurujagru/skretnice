@@ -38,10 +38,9 @@
             <div class="col-7" id="napon_debljina">
         </div>
         </div>
-        <footer>Design By <i>GURUJAGRU</i><br/>
-            &#9993; <a href="https://gmail.com">gurujagru@gmail.com</a>
-        </footer>
     </div>
-</div>
+    <footer>Design By <i>GURUJAGRU</i><br/>
+        &#9993; <a href="https://gmail.com">gurujagru@gmail.com</a>
+    </footer>
 </body>
 </html>

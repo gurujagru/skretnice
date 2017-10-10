@@ -1,15 +1,21 @@
-<div>
+<div  class="pokazi-se">
     <form method="post">
-        Unesite impedansu zvu&#269;nika <b>R = </b><input id="R" name="impedansu R" type="text"  onfocus="select()"
-          onchange="Unos(this.form,this.name)" value="" size="1" maxlength="4" /> &#911<br/>
-        <p>Unesite vrednost preklopne frekvencije <b>Fk = </b><input id="Fk" name="frekvenciju Fk" type="text"  onfocus="select()"
-            onchange="Unos(this.form,this.name)" value="" size="2" maxlength="5" /> kHz</p>
+        <label for="R"> Unesite impedansu zvu&#269;nika R = </label>
+        <input id="R" name="impedansu R" type="text"  onfocus="select()"
+          onchange="Unos(this.form,this.name)" value="" size="1" maxlength="5"/> &#911<br/>
 
-        <input type="button" name="izracunaj" value="Izra&#269;unaj" onclick="Racunaj(this.form)" />
+        <label for="Fk">Unesite vrednost preklopne frekvencije Fk = </label>
+        <input id="Fk" name="frekvenciju Fk" type="text"  onfocus="select()"
+            onchange="Unos(this.form,this.name)" value="" size="1" maxlength="5"/> kHz<br/>
 
-        <p>Induktivitet kalema <b>L = </b><input name="l" type="text" size="4" maxlength="5" readonly /> mH </p>
-        <p>Kapacitet kondenzatora <b>C = </b><input name="c" type="text" size="4" maxlength="5" readonly /> &#956F</p>
-        <input type="button" name="reset" value="Reset" onclick="Reset(this.form)"  />
+        <input type="button" name="izracunaj" class="btn btn-success" value="Izra&#269;unaj" onclick="RacunPrvi(this.form)"/><br/>
+
+        <label for="l">Induktivitet kalema <b>L = </b></label>
+        <input id="l" name="l" type="text" size="1" maxlength="5" readonly /> mH <br/>
+
+        <label for="c">Kapacitet kondenzatora <b>C = </b></label>
+        <input id="c" name="c" type="text" size="1" maxlength="5" readonly /> &#956F <br/>
+
+        <input type="button" name="reset" value="Reset" class="btn btn-default" onclick="Reset(this.form)"/> <br/>
     </form>
 </div>
-
