@@ -18,7 +18,7 @@ $(document).ready(function(){
 });
 
 function loadDoc(url,cFunction) {
-    var element =  document.getElementById("pokazi-se");
+    var element =  document.getElementById("pokazi-se123");
     if (typeof(element) != 'undefined' && element != null)
     {
         var prikaz = document.getElementById('napon_debljina');
