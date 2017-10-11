@@ -1,4 +1,4 @@
-<h1>Crossover</h1>https://gurujagru.github.io/speaker-crossover/
+<p><h1>Crossover</h1>https://gurujagru.github.io/speaker-crossover/<p>
 Web app for calculating some physical values that </br>
 are needed for building the speaker crossover </br> 
 Techniques used: <br/>
