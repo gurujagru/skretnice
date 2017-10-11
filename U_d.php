@@ -1,4 +1,4 @@
-<div>
+<div id="pokazi-se">
     <form method="post">
         <label for="R">Unesite impedansu zvu&#269;nika R = </label>
         <input name="impedansu R" value="" id="R" type="text"
